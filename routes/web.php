@@ -12,3 +12,4 @@ Route::get('/tutorial', function () {
 
 Route::get('/counter', App\Livewire\Counter::class);
 Route::get('/todos', App\Livewire\Todos::class);
+Route::get('/categories', App\Livewire\Categories\Category::class);
